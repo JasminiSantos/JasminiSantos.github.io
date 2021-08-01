@@ -1,0 +1,22 @@
+.presentation {
+margin-top: 150px;
+}
+#me img{
+width: 20%;
+border-radius: 50%;
+margin-bottom: 10px;
+}
+#me{
+margin-top: 140px;
+}
+#social-medias {
+margin-top: 50px;
+margin-bottom: 100px;
+}
+#social-medias a{
+text-decoration: none;
+}
+.description{
+font-size: 17px;
+margin: 5px 0;
+}

@@ -1,0 +1,53 @@
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+  
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    list-style: none;
+}
+body{
+  text-align: center;
+  background: linear-gradient(to right,#EE82EE,#BA55D3,#9932CC);
+  color: white;
+  font-family: 'Raleway', sans-serif;
+}
+h1{
+  margin: 60px 0;
+  font-size: 35px;
+}
+h2 {
+  font-size: 25px;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+a:hover, svg:hover{
+  color: #fdde6c;
+  transform: scale(1.08);
+}
+#navbar{
+  background: #555555;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  z-index: 1000;
+}
+#navbar a{
+  text-decoration: none;
+}
+main{
+  margin: 15px 0 150px 0;
+}

@@ -1,0 +1,35 @@
+.cards {
+    background: #fff;
+    width: 50%;
+    margin: 150px auto 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 200px;
+    border: 5px;
+    color: #fff;    
+}
+.card {
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-transition: color 0.7s ease;
+}
+.card h2 {
+    padding: 10px 40px;
+    background: #555555;
+    box-sizing: border-box;
+    transition: background 0.7s ease, color 0.7s ease;
+}
+.card:hover {
+    color: #555;
+}
+.card:hover h2 {
+    background: #fbeeac;
+    color:#555;
+}
+.card ul {
+    vertical-align: middle;
+}
+.card ul li {
+   font-size: 20px;
+   margin-top: 10px;
+}

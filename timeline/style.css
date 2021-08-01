@@ -1,0 +1,36 @@
+#timeline {
+  margin-top: 120px;
+}
+.card {
+  width: 33%;
+  margin: 60px auto;
+  cursor: pointer;
+  -webkit-transition: transform 0.7s ease;  
+}
+.card .card-year {
+  transition: background 0.7s ease, color 0.7s ease;
+}
+.card:hover {
+  transform: scale(1.05);
+  background: #555;
+  
+}
+.card:hover .card-year {
+  background: #fbeeac;
+  color:#555;
+}
+.card-year {
+  padding: 10px 0;
+  background: #555555;
+}
+.card-text p{
+  padding: 20px 40px;
+  background: #fff;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  transition: color 0.7s ease;
+}
+.card:hover .card-text p{
+  color: #555;
+}
